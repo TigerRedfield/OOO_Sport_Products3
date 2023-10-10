@@ -1,0 +1,16 @@
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\OOO_Sport_Products.exe.config
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\OOO_Sport_Products.exe
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\OOO_Sport_Products.pdb
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.csproj.AssemblyReference.cache
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\MainWindow.g.cs
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\App.g.cs
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products_MarkupCompile.cache
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products_MarkupCompile.lref
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\MainWindow.baml
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.g.resources
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.Properties.Resources.resources
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.csproj.GenerateResource.cache
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.csproj.CoreCompileInputs.cache
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.exe
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.pdb
