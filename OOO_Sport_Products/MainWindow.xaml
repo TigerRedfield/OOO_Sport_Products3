@@ -4,19 +4,59 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOO_Sport_Products"
+        xmlns:easy="clr-namespace:EasyCaptcha.Wpf;assembly=EasyCaptcha.Wpf"
         mc:Ignorable="d"
-        Title="Главное окно?" Height="1080" Width="1920" WindowState="Maximized">
+        Title="ООО Спортивные товары" Height="450" Width="800" Icon="Resources/icon.ico" MinHeight="450" MinWidth="800" WindowState="Maximized">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="525,435,0,0" VerticalAlignment="Top" Height="189" Width="755" RenderTransformOrigin="0.5,0.5" Click="Button_Click">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-54.396"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <!--Заголовок-->
+        <Grid Grid.Row="0" Background="Coral">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        
+            <Image Grid.Column="0" Source="Resources/logo.png" Margin="5"/>
+            <TextBlock Text="Авторизация"  Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource Title}"/>
+            <Button x:Name="buttonExit" Grid.Column="2" Background="#308" Content="Выход" Margin="15" Style="{StaticResource Title}" Foreground="White" Click="buttonExit_Click"/>
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <easy:Captcha x:Name="captcha" Width="200" Height="50" Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 20 0"/>
+            <TextBlock Text="Логин:"  Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Right" TextAlignment="Center" Margin="15" Padding="10" Width="185" Style="{StaticResource Label}"/>
+            <TextBlock Text="Пароль:"  Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="15" TextAlignment="Center" Padding="10" Width="185" Style="{StaticResource Label}"/>
+            <Button x:Name="buttonGuest" Grid.Column="0" Grid.Row="4" Background="#308" Content="Гость" Margin="200, 20, 15, 20" Style="{StaticResource Label}" Foreground="White" Click="buttonGuest_Click"/>
+            <Button x:Name="buttonInput" Grid.Column="1" Grid.Row="4" Background="#308" Content="Войти" Margin="15, 20, 200, 20" Style="{StaticResource Label}" Foreground="White" Click="buttonInput_Click"/>
+            <TextBox x:Name="textboxLogin" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15" Width="300" Padding="10" Style="{StaticResource Label}" />
+            <TextBox x:Name="tbPassword" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15" Width="300" Padding="10" Style="{StaticResource Label}" Visibility="Hidden"/>
+            <PasswordBox x:Name="textboxpassword" PasswordChar="." Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15" Width="300" Padding="10" Style="{StaticResource Label}" />
+            <CheckBox x:Name="isVisiblePassword" Grid.Row="2" Grid.Column="1" 
+                                VerticalAlignment="Center" HorizontalAlignment="Left" Margin="325,0,0,0"
+                                Checked="isVisiblePassword_Checked" 
+                                Unchecked="isVisiblePassword_Unchecked"/>
+            <TextBox x:Name="textboxcaptcha" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15" Width="300" Padding="10" Style="{StaticResource Label}" />
+        </Grid>
     </Grid>
 </Window>

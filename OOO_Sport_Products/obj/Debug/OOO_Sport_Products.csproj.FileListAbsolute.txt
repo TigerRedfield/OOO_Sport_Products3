@@ -14,3 +14,14 @@ C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_
 C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.csproj.CoreCompileInputs.cache
 C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.exe
 C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.pdb
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\EntityFramework.dll
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\EntityFramework.xml
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products_Content.g.cs
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\App.baml
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\OOO_Sport_Products.csproj.CopyComplete
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\EasyCaptcha.Wpf.dll
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\bin\Debug\EasyCaptcha.Wpf.pdb
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\View\Catalog.g.cs
+C:\Users\Tiger\Desktop\Demo\OOO_Sport_Products\OOO_Sport_Products\obj\Debug\View\Catalog.baml
